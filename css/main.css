@@ -1,0 +1,169 @@
+/* CSS Document
+contenido: #F2B705
+encabezado: #F29F05
+equivalentes: #D97904
+piepagina: #733702
+auxiliar: #401801
+*/
+/***********************
+NEUTRALIDAD
+***********************/
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  background-color: #fff;
+}
+body #piePagina{
+  color:#ECECE7;
+}
+/***********************
+ESTRUCTURA
+***********************/
+#wrapper{
+  width: 80%;
+  max-width: 960px;
+  min-width: 460px;
+  height: 660px;
+  background-color: #ff0;
+  margin: 0 auto;
+}
+#encabezado{
+  height: 80px;
+  background-color: #F29F05;
+}
+#contenido{
+  height: 560px;
+  background-color: #F2B705;
+}
+#piePagina{
+  height: 20px;
+  background-color: #733702;
+}
+#izq{
+
+  float: left;
+  width: 60%;
+  height: 560px;
+  margin-bottom: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0;
+}
+#der{
+
+  float: right;
+  width: 34%;
+  height: 560px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 2%;
+  margin-top: 0;
+}
+#W3C{
+  background-color: #F29F05;
+}
+/****************************
+CLASES
+****************************/
+.izquierda{
+  float: left;
+  margin: 10px;
+  width: 35%;
+}
+.derecha{
+  margin: 10px;
+  width: 35%;
+  float: right;
+}
+/****************************
+ESTILOS
+****************************/
+p{
+  padding-bottom: 10px;
+  font-size: 1em;
+}
+h1{
+  padding-top: 5px;
+  text-align: center;
+  letter-spacing: .8em;
+}
+h2{
+  padding: 5px;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+/*Telefonos Moviles*/
+@media only screen and (max-width:460px) {
+#wrapper{
+  width: 320px;
+  height: auto;
+}
+#izq{
+  width:90%;
+  height: auto;
+  clear: both;
+}
+#der{
+  width: 90%;
+  height: auto;
+  clear: both;
+}
+#contenido{
+  height: 1700px;
+}
+#W3C{
+  background-color: #F29F05;
+}
+}
+/*Tabletas*/
+@media only screen and (min-width:461px) and (max-width:768px) {
+#wrapper{
+  width: 90%;
+  height: auto;
+}
+#izq{
+  width:90%;
+  height: auto;
+  clear: both;
+}
+#der{
+  width: 90%;
+  height: auto;
+  clear: both;
+}
+#contenido{
+  height: 1000px;
+}
+#encabezado{
+  height: 60px;
+  background-color: #FA2;
+}
+#W3C{
+  background-color: #F29F05;
+}
+p{
+  font-size: .9em;
+}
+h1{
+  font-size: 1.5em;
+}
+h2{
+  font-size: 1.4em;
+}
+
+}
+@media only screen and (min-width:769px) {
+  #wrapper{
+    width: 80%;
+    max-width: 960px;
+    min-width: 460px;
+    height: 660px;
+    background-color: #ff0;
+    margin: 0 auto;
+  }
+
+}
